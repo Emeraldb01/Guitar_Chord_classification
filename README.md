@@ -75,7 +75,7 @@ Classify 6 different electric guitar chords (3 distinct chords, each with 2 fing
 ||Tree num: 1|Tree num: 2|Tree num: 5|Tree num: 10|Tree num: 50|
 | :- | :- | :- | :- | :- | :- |
 |ACC|0\.791|0\.81|0\.929|0\.941|0\.979|
-### `	`vi.	KNN k number
+### vi.	KNN k number
 
 - Increasing K seems to lead to more noise and overfitting, causing a decrease in KNN classifier performance.
 
@@ -83,7 +83,7 @@ Classify 6 different electric guitar chords (3 distinct chords, each with 2 fing
 | :- | :- | :- | :- | :- |
 |ACC|0\.866|0\.821|0\.808|0\.804|
 
-### `	`vi.	Using open chord for training, bar chord for testing
+### vi.	Using open chord for training, bar chord for testing
 
 Initially, my model was trained on open G, D, C chords. Curiosity led me to test whether it can label bar chords. To my surprise, the model achieved a 1.00 accuracy. 
 
